@@ -1,0 +1,39 @@
+add_datas:
+    - [1,2,3]
+    - [-1,-2,-3]
+    - [100,300,400]
+    - [6,6.6,12.6]
+myid:
+    - "int"
+    - "minus"
+    - "bigint"
+    - "int and float"
+sub_datas:
+    - [2,1,1]
+    - [-1,-2,1]
+    - [100,300,-200]
+    - [6,6.6,-0.6]
+mul_datas:
+    - [2,1,2]
+    - [-1,-2,2]
+    - [100,300,30000]
+    - [1,0,0]
+    - [6,-6.6,-39.6]
+myid_mul:
+    - "int"
+    - "minus"
+    - "bigint"
+    - "result=0"
+    - "int and float,need to round?"
+div_datas:
+    - (2,1,2)
+    - (-4,-2,2)
+    - (600,300,2)
+    - (3.6,1.2,3)
+    - (1,0,'ERR')
+myid_div:
+    - "int"
+    - "minus"
+    - "bigint"
+    - "float"
+    - "ERR=0"
