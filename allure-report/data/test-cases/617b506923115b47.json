@@ -1,0 +1,143 @@
+{
+  "uid" : "617b506923115b47",
+  "name" : "test_div[ERR=0]",
+  "fullName" : "test_calc.TestCalc#test_div",
+  "historyId" : "913de3fb32e2d6f57d41a6a4849bacba",
+  "time" : {
+    "start" : 1608050344172,
+    "stop" : 1608050344172,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "ZeroDivisionError: division by zero",
+  "statusTrace" : "self = <test_calc.TestCalc object at 0x00000281B60CCA60>, a = 1, b = 0, expect = 'ERR'\n\n    @allure.story(\"除法测试模块\")\n    @pytest.mark.parametrize(\"a,b,expect\",get_datas()[5],\n                             ids=get_datas()[6])\n    def test_div(self,a,b,expect):\n>       assert expect == self.calc.div(a,b)\n\ntest_calc.py:54: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pythoncode.calculator.Calculator object at 0x00000281B6002700>, a = 1, b = 0\n\n    def div(self,a,b):\n>       return a/b\nE       ZeroDivisionError: division by zero\n\npythoncode\\calculator.py:9: ZeroDivisionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1608050344171,
+      "stop" : 1608050344171,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1608050343881,
+      "stop" : 1608050343882,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1608050344180,
+      "stop" : 1608050344180,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1608050344181,
+      "stop" : 1608050344182,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算器计算模块"
+  }, {
+    "name" : "story",
+    "value" : "除法测试模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FR3EKSS"
+  }, {
+    "name" : "thread",
+    "value" : "18832-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "0"
+  }, {
+    "name" : "expect",
+    "value" : "'ERR'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d0902c7c55dddc18",
+      "status" : "broken",
+      "statusDetails" : "ZeroDivisionError: division by zero",
+      "time" : {
+        "start" : 1608049482122,
+        "stop" : 1608049482122,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "617b506923115b47.json",
+  "parameterValues" : [ "1", "0", "'ERR'" ]
+}

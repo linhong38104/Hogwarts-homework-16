@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert -0.6 == -0.5999999999999996\n  +-0.6\n  --0.5999999999999996",
+      "children" : [ {
+        "name" : "test_sub[int and float]",
+        "uid" : "f398fce7b799054d",
+        "parentUid" : "9564b3dcf930c04cc5b2ac96f39f9b7d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608050343967,
+          "stop" : 1608050343968,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "6", "6.6", "-0.6" ]
+      } ],
+      "uid" : "9564b3dcf930c04cc5b2ac96f39f9b7d"
+    }, {
+      "name" : "AssertionError: assert -39.6 == -39.599999999999994\n  +-39.6\n  --39.599999999999994",
+      "children" : [ {
+        "name" : "test_mul[int and float,need to round?]",
+        "uid" : "925efe4fd2409c91",
+        "parentUid" : "c0ecd21d9e2d03540bafb67cd0730d58",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608050344135,
+          "stop" : 1608050344135,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "6", "-6.6", "-39.6" ]
+      } ],
+      "uid" : "c0ecd21d9e2d03540bafb67cd0730d58"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "ZeroDivisionError: division by zero",
+      "children" : [ {
+        "name" : "test_div[ERR=0]",
+        "uid" : "617b506923115b47",
+        "parentUid" : "23d45e2b95d72e21c04056363d6f717f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608050344172,
+          "stop" : 1608050344172,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "0", "'ERR'" ]
+      } ],
+      "uid" : "23d45e2b95d72e21c04056363d6f717f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

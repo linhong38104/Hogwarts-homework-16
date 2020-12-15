@@ -1,0 +1,128 @@
+{
+  "uid" : "158a5bca8d15f708",
+  "name" : "test_sub[int and float]",
+  "fullName" : "test_calc.TestCalc#test_sub",
+  "historyId" : "26de7a3764a29b32523819de5b0d48a9",
+  "time" : {
+    "start" : 1608049481914,
+    "stop" : 1608049481914,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert -0.6 == -0.5999999999999996\n  +-0.6\n  --0.5999999999999996",
+  "statusTrace" : "self = <test_calc.TestCalc object at 0x0000025167F3BE20>, a = 6, b = 6.6, expect = -0.6\n\n    @allure.story(\"减法测试模块\")\n    @pytest.mark.parametrize(\"a,b,expect\",\n                             get_datas()[2],\n                             ids=get_datas()[1])\n    def test_sub(self,a,b,expect):\n>       assert expect == self.calc.sub(a,b)\nE       assert -0.6 == -0.5999999999999996\nE         +-0.6\nE         --0.5999999999999996\n\ntest_calc.py:42: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1608049481831,
+      "stop" : 1608049481831,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1608049481913,
+      "stop" : 1608049481913,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1608049482133,
+      "stop" : 1608049482134,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1608049482046,
+      "stop" : 1608049482046,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算器计算模块"
+  }, {
+    "name" : "story",
+    "value" : "减法测试模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FR3EKSS"
+  }, {
+    "name" : "thread",
+    "value" : "8652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "6"
+  }, {
+    "name" : "b",
+    "value" : "6.6"
+  }, {
+    "name" : "expect",
+    "value" : "-0.6"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "158a5bca8d15f708.json",
+  "parameterValues" : [ "6", "6.6", "-0.6" ]
+}
