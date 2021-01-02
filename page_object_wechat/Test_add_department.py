@@ -11,6 +11,7 @@ class Test_add_department:
         self.driver.maximize_window()
         self.driver.implicitly_wait(5)
         self.driver.get("https://work.weixin.qq.com/wework_admin/frame")
+        #sleep(10)
 
     def teardown_class(self):
        #self.driver.quit()
@@ -34,3 +35,5 @@ class Test_add_department:
         self.driver.find_element(By.CSS_SELECTOR, ".qui_dropdownMenu.ww_dropdownMenu.member_colLeft.js_party_list_container a").click() #选择所属部门
         self.driver.find_element(By.CSS_SELECTOR, ".qui_dialog_foot.ww_dialog_foot a:nth-child(1)").click() #点击确定
 
+    #断言
+    
